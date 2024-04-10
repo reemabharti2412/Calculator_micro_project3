@@ -1,0 +1,50 @@
+.calculator{
+    background-color: rgb(13, 12, 71);
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px black;
+}
+
+.display{
+    font-size: 60px;
+    text-align: right;
+    background-color:black;
+    color: white;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    /* overflow: auto;*/
+
+} 
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+}
+button{
+    height: 60px;
+    /* width: 70px; */
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    
+
+}
+.reset{
+    /* width:110px ; */
+    color: white;
+    background-color: rgb(45, 170, 211);
+    grid-column: 1 / span 2;
+    
+}
+.delete{
+    color: white;
+    background-color: rgb(45, 170, 211);
+}
+.equalto{
+    color: white;
+    background-color: #d0470c;
+    grid-column: 3 /  span 2;
+}
